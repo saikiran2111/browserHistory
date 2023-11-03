@@ -1,0 +1,66 @@
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8fafc;
+  /* border: 1px solid black; */
+  height: 55px;
+  width: 95vw;
+  margin: 10px;
+  box-shadow: #ececec;
+}
+
+.written-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin: 5px;
+}
+
+.time {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #475569;
+  margin-right: 25px;
+}
+
+.list-logo {
+  height: 30px;
+  width: 30px;
+  margin-right: 12px;
+  margin-top: 8px;
+  margin-left: 25px;
+}
+
+.list-title {
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 14px;
+}
+
+.list-url {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #64748b;
+  margin-left: 12px;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+}
+
+.delete-icon {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
