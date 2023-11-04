@@ -130,7 +130,11 @@ class App extends Component {
           </div>
         </div>
         <div className="content-container">
-          <div className="inner-container">
+          {userHistoryList.length === 0 ? (
+            <div className="no-items">
+              <p>There is no history to show</p>
+            </div>
+          ) : (
             <ul className="list-container">
               {searchResults.map(eachResult => (
                 <UserHistory
@@ -140,7 +144,7 @@ class App extends Component {
                 />
               ))}
             </ul>
-          </div>
+          )}
         </div>
       </div>
     )

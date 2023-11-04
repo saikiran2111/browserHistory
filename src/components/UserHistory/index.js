@@ -17,12 +17,16 @@ const UserHistory = props => {
         <p className="list-url">{domainUrl}</p>
       </div>
       <div className="delete-container">
-        <button data-testid="delete" className="delete-button" type="button">
+        <button
+          data-testid="delete"
+          onClick={onDelete}
+          className="delete-button"
+          type="button"
+        >
           <img
             src="https://assets.ccbp.in/frontend/react-js/delete-img.png "
             alt="delete"
             className="delete-icon"
-            onClick={onDelete}
           />
         </button>
       </div>

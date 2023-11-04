@@ -92,3 +92,12 @@ body {
   justify-content: flex-start;
   align-items: center;
 }
+
+.no-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
